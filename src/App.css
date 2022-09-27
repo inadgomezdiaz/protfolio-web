@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  Font-family: Georgia, Times, Times New Roman, serif;
+  color: #fff
+}
+
+body {
+  background-color: #EDD711
+}
+
+.contenedor-pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex:1 1;
+  flex-direction: column;
+
+}

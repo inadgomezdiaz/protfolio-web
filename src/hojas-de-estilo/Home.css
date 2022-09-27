@@ -1,0 +1,36 @@
+.home-contenedor{
+  display:flex;
+  min-height:100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  background-color: #FCF7F4;
+}
+
+.home-contenedor-texto{
+  display:flex;
+  flex-wrap: wrap;
+  flex:1 1 1;
+  justify-content:center;
+  align-items:center;
+  padding:10px;
+
+}
+.home-texto-cabezera{
+  font-size: 42px;
+  padding:3px;
+  color:#000;
+}
+.home-texto-intro{
+  font-size: 26px;
+  align-self: flex-start;
+  color:#000;
+}
+
+.home-icon{
+  width:100px;
+  height:100px;
+  margin:10px;
+}
