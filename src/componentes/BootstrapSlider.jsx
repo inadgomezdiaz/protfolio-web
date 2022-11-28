@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Proyecto from "./Proyecto"
-import video from "../media/video-tg.mp4"
+import video from "../media/video.mp4"
+import videoTG from "../media/video-tg.mp4"
 
 function BootsrapSlider() {
   return (
@@ -8,7 +9,7 @@ function BootsrapSlider() {
       <Carousel.Item>
         <Proyecto
           nombre="Typing Game"
-          demo="https://inadgomezdiaz.github.io/typing-game/" github="https://github.com/inadgomezdiaz/typing-game" video={video}
+          demo="https://inadgomezdiaz.github.io/typing-game/" github="https://github.com/inadgomezdiaz/typing-game" video={videoTG}
           descripcion="juego que mide el tiempo que tardas en copiar una frase (JS,CSS,HTML)" />
       </Carousel.Item>
       <Carousel.Item>
