@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Proyecto from "./Proyecto"
-import video from "../media/video.mp4"
+import videoCntr from "../media/video-cntr.mp4"
 import videoTG from "../media/video-tg.mp4"
-import videoclc from "../media/video-clc.mp4"
+import videoClc from "../media/video-clc.mp4"
 
 function BootsrapSlider() {
   return (
@@ -15,14 +15,14 @@ function BootsrapSlider() {
       </Carousel.Item>
       <Carousel.Item>
         <Proyecto
-          nombre="prueba"
-          demo="youtube.com" video={video}
-          descripcion="descripciond video 2" />
+          nombre="Contador de clicks"
+          demo="https://inadgomezdiaz.github.io/clicks-counter/" github="https://github.com/inadgomezdiaz/clicks-counter" video={videoCntr}
+          descripcion="contador de clicks hecho con componentes de clase de react.js (React.js)" />
       </Carousel.Item>
       <Carousel.Item>
         <Proyecto
-          nombre="prueba"
-          demo="https://inadgomezdiaz.github.io/calculadora-react/" github="https://github.com/inadgomezdiaz/calculadora-react" video={videoclc}
+          nombre="Calculadora react"
+          demo="https://inadgomezdiaz.github.io/calculadora-react/" github="https://github.com/inadgomezdiaz/calculadora-react" video={videoClc}
           descripcion="Calculadora hecha con react.js (React.js)" />
       </Carousel.Item>
     </Carousel>
