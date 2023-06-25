@@ -14,9 +14,7 @@ function AboutMe() {
         </div>
         <div className="contenedor-texto">
           <p className="descripcion-about-me">
-            Me llamo Daniel Gomez, estudie programacion en la UNSAM.
-            Empeze programando microcontroladores en secundaria (Tecnica 1 Vte lopez)
-            pero luedo decidi enfocarme en el desarrollo frontend que es lo que en verdad me apasiona
+            Me llamo Daniel Gomez, estudie programacion en la UNSAM. Empecé programando microcontroladores en secundaria (Tecnica 1 Vte López) pero luego decidí enfocarme en el desarrollo( tanto web como de software) que es lo que en verdad me apasiona
           </p>
         </div>
       </div>
