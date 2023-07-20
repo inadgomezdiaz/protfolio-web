@@ -9,10 +9,10 @@ function Home() {
     <div id="home" className="home-contenedor" >
       <div className="home-contenedor-texto">
         <h1 className="home-texto-cabezera">
-          Frontend React Developer
+          Software Developer
         </h1>
         <p className="home-texto-intro">
-          Soy Daniel Gomez y me dedico al Desarrollo Frondend responsive
+          Soy Daniel Gomez y me dedico al Desarrollo de software
         </p>
       </div>
       <div className="home-icon-contenedor">
